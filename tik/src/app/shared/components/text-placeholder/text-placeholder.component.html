@@ -1,0 +1,11 @@
+    <mat-form-field class="example-full-width">
+      <input matInput 
+        placeholder= {{placeholderDetail}} 
+        [formControl]="formControl"
+        [errorStateMatcher]="errorStateMatcherService"
+        (blur)="validateControl()">
+      <mat-hint>{{tipDetail}}</mat-hint>
+      <mat-error *ngIf="formControl && formControl.errors">
+        {{errorMessage}}
+      </mat-error>
+    </mat-form-field>

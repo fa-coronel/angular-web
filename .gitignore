@@ -1,0 +1,8 @@
+tik/src/app/products/products.component.html
+tik/src/app/products/products.component.sass
+tik/src/app/products/products.component.spec.ts
+tik/src/app/products/products.component.ts
+tik/src/app/products/product-detail/product-detail.component.html
+tik/src/app/products/product-detail/product-detail.component.sass
+tik/src/app/products/product-detail/product-detail.component.spec.ts
+tik/src/app/products/product-detail/product-detail.component.ts
